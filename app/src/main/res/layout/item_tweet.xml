@@ -37,7 +37,8 @@
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="194dp"
-        android:layout_toEndOf="@+id/tvScreenName"
-        tools:text="2m" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="335dp"
+        android:layout_marginEnd="5dp"
+        tools:text="Just Now" />
 </RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#ff88939B</color>
+    <color name="red">#FF0000</color>
+    <color name="twitter_blue">#00acee</color>
+    <color name="button_disabled">#8ED0F9</color>
+    <color name="white">#FFFFFF</color>
+</resources>

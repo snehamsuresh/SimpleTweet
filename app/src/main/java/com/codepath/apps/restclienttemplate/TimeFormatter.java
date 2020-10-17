@@ -22,7 +22,7 @@ public class TimeFormatter {
         try {
             long diff = (System.currentTimeMillis() - format.parse(rawJsonDate).getTime()) / 1000;
             if (diff < 5)
-                time = "Just now";
+                time = "0s";
             else if (diff < 60)
                 time = String.format(Locale.ENGLISH, "%ds",diff);
             else if (diff < 60 * 60)
